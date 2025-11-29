@@ -1,116 +1,62 @@
-🚀 OOP Lab 4 – C++ | Menus, Arrays, Recursion, span, and Console UI
+🧪 OOP Lab 4 – C++
 
-This repository contains the solution for Object-Oriented Programming – Lab 4
-The lab focuses on applying advanced C++ concepts, including:
+This repository contains Lab 4 of my Object-Oriented Programming (OOP) course using C++ as part of the ITI 9-Month Program.
 
-✔ Dynamic console menus
-✔ Working with structs
-✔ Recursion
-✔ Passing by reference
-✔ Binary conversion
-✔ Fibonacci sequence
-✔ Using std::span for safer array manipulation
-✔ Splitting arrays using spans
-✔ Console UI using ANSI escape codes and arrow-key navigation
+📌 Lab Overview
 
-📌 Contents
-1️⃣ Employee Management System
+Lab 4 introduces more advanced C++ programming techniques, preparing the transition toward deeper OOP concepts.
+The lab focuses on recursion, pointer behavior, reference passing, console-based menus, and modern C++ features like std::span.
 
-A small console-based system that allows:
+📝 What This Lab Covers
 
-➕ Add new employee
+According to main.cpp, this lab includes:
 
-🔍 Display a single employee by ID
+Building an interactive console menu system using arrow keys and escape sequences
 
-📋 Display all employees
+Managing structured data using a custom Employee struct
 
-🎨 Menu navigation using arrow keys (↑ / ↓) and Enter
+Practicing recursion through:
 
-🎭 Console formatting using escape sequences
+Fibonacci sequence generation
 
-Features used:
+Converting integers to binary representation
 
-struct Employee
+Applying pass-by-reference in swap operations
 
-Static counter (employeeCount)
+Working with C++ arrays and std::array
 
-Formatted screen positions with escape codes
+Introducing std::span to safely manipulate array slices without copying
 
-getch() for arrow-key navigation
+Splitting arrays into multiple sections and modifying each part independently
 
-2️⃣ Recursion Tasks
-🔢 Fibonacci Function
+Enhancing console UI using system("cls"), cursor movement, and formatted output
 
-A recursive implementation that prints Fibonacci numbers using static variables.
+This lab builds practical skills that combine logic, recursion, memory handling, and user interaction — all essential before fully applying object-oriented design principles.
 
-fibonacci(10);
+📂 Repository Contents
+```
+main.cpp → Full implementation of Lab 4 tasks
+README.md → This documentation file
+```
 
-⚙️ Binary Conversion
+🎯 Learning Objectives
 
-A recursive function to print the binary representation of a number:
+By completing Lab 4, you will:
 
-printBinary(13);   // Output: 1101
+Strengthen your understanding of recursion and reference semantics
 
-3️⃣ Swap by Reference
+Learn how to build interactive console applications
 
-Demonstrates passing parameters by reference using C++ references:
+Practice working with arrays and modern C++ features (std::span)
 
-swapByReference(x, y);
+Improve code clarity through function-based modular design
 
-4️⃣ Using std::span (Modern C++ Feature)
+Prepare for upcoming OOP topics (encapsulation, classes, methods, etc.)
 
-A second part of the lab demonstrates the power of std::span:
+👤 Author
 
-Split an array into two spans (first half, second half)
+Mohanad “Honda” Tarek
+ITI – 9-Month Professional Program
+OOP Course – C++
 
-Replace first half with 1s
-
-Replace second half with 0s
-
-Example:
-
-array<int, 10> arr = {5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-replaceValues(arr);
-
-
-Before:
-5 6 7 8 9 10 11 12 13 14
-After:
-1 1 1 1 1 0 0 0 0 0
-
-🛠 Topics Covered in This Lab
-
-Structs & structured data
-
-Console UI (escape sequences + cursor movement)
-
-Menus and interaction
-
-Recursion (Fibonacci, Binary conversion)
-
-Passing by reference
-
-Arrays & std::array
-
-std::span (safe view over arrays)
-
-Splitting arrays without copying
-
-Cleaning console with system("cls")
-
-Arrow-key input handling
-
-📷 Output Examples
-
-You can add screenshots here if you want for a better README look.
-
-📚 How to Run
-
-Compile with any C++ compiler that supports C++20 (for std::span):
-
-g++ main.cpp -std=c++20 -o lab4
-./lab4
-
-🧑‍💻 Author
-
-Created by Mohanad (Honda) during the OOP course at ITI – 9-Month Program.
+🚀 More OOP labs — including classes, constructors, inheritance, and full OOP concepts — will be uploaded as I progress through the course.
